@@ -1,6 +1,49 @@
-.row {
-    padding-bottom: 100px;
+
+a {
+    color: white !important;
+    
 }
-.jumbotron cardContainer col-lg-12 col-md-12 col-sm-12 {
+
+.navcolor {
+    color: black;
+} 
+
+.navbar {
+    background-color: #63D297 !important;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background-color: #D6EBE0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.lead {
+    font-weight: bold;
+}
+
+
+
+/*Card Prototype*/
+.flexcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgprototype {
+    max-width: 50%;
+}
+
+.cardprotottype {
+    background-color: #D6EBE0;
+    color: black;
     margin: 20px;
+    border-radius: 8px;
 }

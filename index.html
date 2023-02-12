@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light navcolor">
   <a class="navbar-brand" href="#">AllPack</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -18,22 +18,22 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+        <a class="nav-link navcolor" href="#">About <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Wireframe</a>
+        <a class="nav-link navcolor" href="#">Wireframe</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Prototype</a>
+        <a class="nav-link navcolor" href="#">Prototype</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle navcolor" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Project
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">User Reserach</a>
-          <a class="dropdown-item" href="#">User Flow</a>
-          <a class="dropdown-item" href="#">User Testing</a>
+        <div class="dropdown-menu navcolor" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item navcolor" href="#">User Reserach</a>
+          <a class="dropdown-item navcolor" href="#">User Flow</a>
+          <a class="dropdown-item navcolor" href="#">User Testing</a>
         </div>
       </li>
     </ul>
@@ -41,29 +41,34 @@
 </nav>
 
 <!-- Jumbotron -->
-<div class="jumbotron">
+<div class="container-fluid">
+  <div class="jumbotron">
   <h1 class="display-4">AllPack</h1>
   <p class="lead">A mobile app that helps users to plan and book their trip in a post-pandemic world.</p>
   <hr class="my-4">
   <p>Built for Young Traveller to conveniently plan and book trips because planning trips can be very time-consuming and frustrating.</p>
-  <a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">Discover More</a>
+  <a class="btn btn-secondary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">Discover More</a>
+  </div>
 </div>
 
 
 <!-- Cards Section: User Research-->
-<div class="userresearch">
-  <h2>User Reserach</h2>
-</div>
-<div class="row">
+
+   <div class="userresearch">
+   <h2>User Reserach</h2>
+   </div>
+ <div class="row">
   <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
     <div class="card">
       <img src="./Images/Affinity Diagram.jpg" class="card-img-top" alt="AffinityDiagram" width="250" height="200">
       <div class="card-body">
         <h5 class="card-title">User Research</h5>
-        <p class="card-text">User interviews were conducted to collect qualitative and quantitative data from participants.</p>
+        <p class="card-text">User interviews were conducted to collect qualitative and quantitative data. </p>
       </div>
     </div>
   </div>
+
+
 
   <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
     <div class="card">
@@ -76,6 +81,8 @@
     </div>
   </div>
 
+
+
   <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
     <div class="card">
       <img src="./Images/Storyboard (1).png" class="card-img-top" alt="Storyboard" width="250" height="200">
@@ -86,11 +93,13 @@
     </div>
   </div>
 
-<!-- Problem Statement-->
 
-<div class="jumbotron cardContainer col-lg-12 col-md-12 col-sm-12">
-  <p class="lead">Problem Statement</p>
-  <p>How we might ease travel planning and information organization for young travelers to improve trip planning efficiency?</p>
+<!-- Problem Statement-->
+<div class="container">
+  <div class="jumbotron cardContainer col-lg-12 col-md-12 col-sm-12">
+   <p class="lead">Problem Statement</p>
+   <p>How we might ease travel planning and information organization for young travelers to improve trip planning efficiency?</p>
+  </div>
 </div>
 
 <!-- Accordion Iterations -->
@@ -99,7 +108,7 @@
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link navcolor" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Wireframes
         </button>
       </h2>
@@ -114,7 +123,7 @@
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="btn btn-link collapsed navcolor" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           User Testing
         </button>
       </h2>
@@ -128,7 +137,7 @@
   <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link collapsed navcolor" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Iteration
         </button>
       </h2>
@@ -144,12 +153,12 @@
 
 <!-- Card Prototype -->
 <div>
-  <div class="card">
-    <img src="./Images/AllPack_MockUp.png" class="card-img-top" alt="prototype">
-    <div class="card-body">
+  <div class="card flexcard">
+    <img src="./Images/AllPack_MockUp.png" class="card-img-top imgprototype" alt="prototype">
+    <div class="card-body cardprotottype">
       <h5 class="card-title">Prototype</h5>
       <p class="card-text">Finally, after User Testing iterations, I built the high-fidlity prototype, representing how the AllPack mobile app will look like and how its iteractions will help users to search and book trips in a friendly and effcient way. </p>
-      <a href="https://www.figma.com/proto/489Bu2nAORrdeZZbU9S1sE/Wireframe%2FPrototype?page-id=0%3A1&node-id=2%3A283&viewport=242%2C2067%2C0.23&scaling=scale-down&starting-point-node-id=2%3A283&show-proto-sidebar=1" class="btn btn-primary">Check it</a>
+      <a href="https://www.figma.com/proto/489Bu2nAORrdeZZbU9S1sE/Wireframe%2FPrototype?page-id=0%3A1&node-id=2%3A283&viewport=242%2C2067%2C0.23&scaling=scale-down&starting-point-node-id=2%3A283&show-proto-sidebar=1" class="btn btn-secondary">Check it</a>
     </div>
   </div>
 </div>
